@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Krushna Multiservices - PVC Card Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="PVC Printing Center - Aadhaar PVC, PAN PVC, Voter ID PVC, ATM Card PVC and more." />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,Segoe UI,sans-serif;}
+    body{background:#f4f4f7;color:#1f2933;}
+    a{text-decoration:none;color:inherit;}
+    header{background:#111827;color:#fff;position:sticky;top:0;z-index:100;}
+    .nav-container{max-width:1100px;margin:auto;padding:0.8rem 1rem;display:flex;justify-content:space-between;align-items:center;}
+    nav ul{display:flex;gap:1rem;list-style:none;}
+    nav a{padding:0.3rem 0.5rem;border-radius:999px;}
+    nav a:hover{background:#1f2937;}
+    .hero{background:linear-gradient(135deg,#111827,#1f2937);color:#fff;padding:3rem 1rem;}
+    .hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;}
+    .hero h1{font-size:2rem;margin-bottom:0.8rem;}
+    .btn-primary{padding:0.6rem 1.2rem;border-radius:999px;background:#10b981;font-weight:600;border:none;}
+    .btn-primary:hover{background:#059669;}
+    .btn-outline{padding:0.6rem 1.1rem;border-radius:999px;border:1px solid #ccc;background:transparent;color:white;}
+    .hero-card-preview{background:#fff;color:#111827;border-radius:1rem;padding:1.5rem;box-shadow:0 18px 50px rgba(0,0,0,0.4);}
+    .small-card{background:#111;padding:0.7rem;border-radius:0.7rem;color:#fff;}
+    section{padding:2.5rem 1rem;}
+    .container{max-width:1100px;margin:auto;}
+    .services-grid,.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem;}
+    .service-card,.price-card,.contact-card{background:#fff;padding:1rem;border-radius:0.9rem;border:1px solid #ddd;}
+    .price{font-size:1.5rem;font-weight:700;margin:5px 0;}
+    .about{background:#111827;color:#fff;}
+    footer{background:#020617;color:#9ca3af;font-size:0.8rem;padding:1rem;}
+    .floating-whatsapp{position:fixed;right:1rem;bottom:1rem;}
+    .floating-whatsapp a{display:flex;align-items:center;justify-content:center;width:52px;height:52px;background:#25D366;border-radius:50%;font-size:1.6rem;color:white;}
+    @media(max-width:768px){.hero-inner{grid-template-columns:1fr;}nav ul{display:none;}}
+  </style>
+</head>
+<body>
+
+<!-- Floating WhatsApp -->
+<div class="floating-whatsapp">
+  <a href="https://wa.me/918888336519" target="_blank">💬</a>
+</div>
+
+<header>
+  <div class="nav-container">
+    <div class="logo">Krushna Multiservices</div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1>All Types of PVC Smart Cards Available</h1>
+      <p>Premium PVC printing service for Aadhaar, PAN, Voter ID, ATM, Driving License & all ID cards</p>
+      <div style="margin-top:1rem;display:flex;gap:0.7rem;">
+        <a href="#contact"><button class="btn-primary">Book Your PVC Card</button></a>
+        <a href="https://wa.me/918888336519"><button class="btn-outline">WhatsApp Order</button></a>
+      </div>
+      <p style="margin-top:0.6rem;">✔ Same Day Delivery • ✔ HD Print • ✔ Waterproof PVC</p>
+    </div>
+
+    <div class="hero-card-preview">
+      <h3>Available PVC Card Prints</h3>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:0.7rem;margin-top:1rem;">
+        <div class="small-card">Aadhaar PVC</div>
+        <div class="small-card">PAN PVC</div>
+        <div class="small-card">Voter ID PVC</div>
+        <div class="small-card">ATM/ID Card</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Our PVC Printing Services</h2>
+    <br>
+    <div class="services-grid">
+      <div class="service-card">Aadhaar PVC Card</div>
+      <div class="service-card">PAN PVC Card</div>
+      <div class="service-card">Voter PVC Card</div>
+      <div class="service-card">Driving License PVC</div>
+      <div class="service-card">ATM / Debit PVC</div>
+      <div class="service-card">School / Office ID Cards</div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <h2>Pricing</h2>
+    <br>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Single PVC Card</h3>
+        <div class="price">₹100</div>
+        <p>Any Aadhaar / PAN / Voter ID / License</p>
+      </div>
+
+      <div class="price-card">
+        <h3>3 PVC Combo</h3>
+        <div class="price">₹250</div>
+        <p>Any three cards of your choice</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Bulk Student/Staff Cards</h3>
+        <div class="price">Custom Rate</div>
+        <p>Discount available on large orders</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container">
+    <h2>About Krushna Multiservices</h2><br>
+    <p>We provide fast & high quality PVC card printing services at affordable rates.</p>
+    <p>Center Address: Gut No 57, Village Pharola, Bidkin</p>
+    <p>Working Hours: **8:00 AM to 8:00 PM**</p>
+    <p>Contact Anytime: <b>8888336519</b></p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact & Location</h2><br>
+    <div class="contact-card">
+      <p><b>Krushna Multiservices - CSC Center</b></p>
+      <p>Gut No 57, Village Pharola, Bidkin</p>
+      <p>📞 Mobile/WhatsApp: <a href="https://wa.me/918888336519">8888336519</a></p>
+      <p>🕒 Timings: 8:00 AM to 8:00 PM</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <center>© <span id="yr"></span> Krushna Multiservices. All Rights Reserved.</center>
+</footer>
+
+<script>document.getElementById("yr").innerText=new Date().getFullYear();</script>
+</body>
+</html>
